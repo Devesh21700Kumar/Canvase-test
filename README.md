@@ -67,3 +67,5 @@ Canvase is a simple wireframing application built with React that allows users t
   - `index.js`: The entry point of the application.
 - `public/`: Contains the public assets and HTML file.
 - `package.json`: Contains the project dependencies and scripts.
+
+Rectangle resizing has been implemented using the re-resizable library. The Rectangle component is wrapped with the Resizable component, which provides resize handles. Dragging the resize handles updates the width and height of the rectangle.
